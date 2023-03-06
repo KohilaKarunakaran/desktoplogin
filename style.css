@@ -1,0 +1,46 @@
+#p1, #p2
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+#p1
+{
+    font-size: 60px;
+    padding: 100px 100px 50px 100px;
+
+}
+#p2
+{
+    font-size: 30px;
+    padding: 20px 100px 50px 100px;
+
+}
+.container
+{
+    height: 1600px;
+    width: 1600px;
+    border: 2px solid black;
+
+}
+.head
+{
+    height: 90px;
+    width: 1290px;
+    background-color: blue;
+    border: 1px solid whitesmoke;
+padding-right: 50px;
+padding-bottom: 20px;
+}
+.logo
+{
+    font: 70px;
+}
+#kirjaudu
+{
+    float: right;
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
