@@ -43,4 +43,8 @@ padding-bottom: 20px;
     border-radius: 5px;
     text-align: center;
 }
-
+.rounds
+{
+    border-radious: 80%;
+    boeder-color: black;
+}
