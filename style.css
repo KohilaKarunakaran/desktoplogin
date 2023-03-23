@@ -1,47 +1,90 @@
-#p1, #p2
-{
-font-family: Arial, Helvetica, sans-serif;
+#p1,
+#p2,
+.logo,
+.right {
+    font-family: Arial, Helvetica, sans-serif;
 }
-#p1
-{
+#p1 {
     font-size: 60px;
-    padding: 100px 100px 50px 100px;
-
+    margin: 0px 60px 30px 100px;
+    font-weight: bold;
 }
-#p2
-{
+#p2 {
     font-size: 30px;
-    padding: 20px 100px 50px 100px;
+    margin: 20px 60px 50px 100px;
+}
 
-}
-.container
-{
-    height: 1600px;
-    width: 1600px;
-    border: 2px solid black;
+.head {
+    column-count:2 ;
+    height: 100px;
+    width: 1900px;
+    background-color: rgb(228, 225, 225);
+    border: 1px solid rgb(228, 225, 225);
+    margin-bottom: 150px;
+    }
 
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 45px;
 }
-.head
-{
-    height: 90px;
-    width: 1290px;
-    background-color: blue;
-    border: 1px solid whitesmoke;
-padding-right: 50px;
-padding-bottom: 20px;
-}
-.logo
-{
-    font: 70px;
-}
-#kirjaudu
-{
-    float: right;
-    width: 150px;
-    height: 40px;
+#kirjaudu {
+    width: 180px;
+    height: 50px;
     border: 2px solid black;
     border-radius: 5px;
     text-align: center;
+    float: right;
+    margin: 20px 55px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+   }
+   #Kirja 
+   {
+       height: 80px;
+       width: 230px;
+background-color: black;
+margin-left: 100px;
+font-size: 28px ;
+text-align: center;
+color: white;
+border-radius: 10px;
+   }
+
+.footer
+{
+   height: 200px;
+   background-color: rgb(228, 225, 225); 
+margin-top: 10px;
+text-align: center;
+font: 20px bold black;
+}
+.right
+{
+width: 850px;
+height: 650px;
+border: 2px solid black;
+border-radius: 5px;
+}
+    
+.body
+{
+    height: 800px;
+    column-count: 2;
+}
+table, th, tr, td
+{
+    border: 1px solid;
+    font-size: 15px;
+
+}
+table 
+{
+    width:500px;
+    height: 200px;
+    margin: 100px 10px 0px 100px;
+
 }
 #r1, #r2, #r3
 {
