@@ -14,10 +14,9 @@
     margin: 20px 60px 50px 100px;
 }
 
-.head {
+header {
     column-count:2 ;
     height: 100px;
-    width: 1900px;
     background-color: rgb(228, 225, 225);
     border: 1px solid rgb(228, 225, 225);
     margin-bottom: 150px;
