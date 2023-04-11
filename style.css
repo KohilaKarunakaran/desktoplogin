@@ -57,7 +57,9 @@ border-radius: 10px;
    background-color: rgb(228, 225, 225); 
 margin-top: 10px;
 text-align: center;
-font: 20px bold black;
+font: 20px black;
+padding-top: 70px;
+font-family: Arial, Helvetica, sans-serif;;
 }
 .right
 {
@@ -74,16 +76,25 @@ border-radius: 5px;
 }
 table, th, tr, td
 {
-    border: 1px solid;
-    font-size: 15px;
-
+    border: 1px solid rgb(204, 192, 192);
+    font-size: 8px;
 }
 table 
 {
-    width:500px;
-    height: 200px;
-    margin: 100px 10px 0px 100px;
+    width: 580px;
+    height: 110px;
+    margin: 20px 10px 0px 100px;
+    text-align: center;
+    border-radius: 2px;
 
+}
+th {
+    background-color: rgb(240, 238, 238);
+    
+}
+tr
+{
+    background-color: whitesmoke;
 }
 #r1, #r2, #r3
 {
@@ -107,3 +118,41 @@ table
     margin-top: -20px;
     margin-left: 120px;
 }
+.kuo
+{
+
+    margin-left: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 10px;
+
+}
+.sää {
+    margin-bottom: 25px ;
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.bg
+ {
+    margin-top: 80px;
+     height: 410px;
+     width: 846px;
+     background-color: rgb(245, 243, 243);
+ }
+ i {
+    margin-left: -15px;
+    margin-right: 5px;
+ }
+ #sade {
+     margin-left: -30px;
+ }
+ #lumi {
+    margin-left: -35px;
+ }
+ .name {
+    font-weight: bold;
+
+ }
